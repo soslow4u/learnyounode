@@ -1,8 +1,6 @@
 const http = require('http');
 const fs = require('fs');
 
-fillzero = (n)=>n<10?'0'+n:n;
-
 http.createServer(
     (request, response) =>{
         fs.createReadStream(process.argv[3]).pipe(response);
