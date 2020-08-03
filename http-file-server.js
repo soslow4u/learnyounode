@@ -1,6 +1,5 @@
 const http = require('http');
 const fs = require('fs');
-//const strftime = require('strftime'); I can't
 
 fillzero = (n)=>n<10?'0'+n:n;
 
